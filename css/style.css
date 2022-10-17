@@ -1,0 +1,184 @@
+body {
+  background-image: url("../image/The_moyka.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center center;
+  margin: 0px 0px 0px 0px;
+  font-family: "Ubuntu";
+  font-size: 1.2em;
+  line-height: 1em;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: white;
+}
+
+header {
+  width: 100%;
+  top: 0;
+  z-index: 500;
+  display: block;
+  background-color: rgba(245, 222, 179, 0.5);
+  position: fixed;
+  position: absolute;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+ul li a {
+  display: inline-block;
+  height: 100%;
+  width: 10em;
+}
+
+a:hover {
+  color: rgba(125, 62, 17,1)
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+}
+
+.head1 {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  max-width: 95vw;
+}
+
+.navigation {
+  margin-top: 1em;
+  height: 2em;
+  align-items: flex-start;
+  color: #fff;
+}
+
+.logo {
+  height: inherit;
+  display: flex;
+  float: left;
+}
+
+.logo_img {
+  position: relative;
+}
+
+.logo_txt {
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 15px;
+  color: #fff;
+  float: left;
+}
+
+.language {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.sep {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.right_head {
+  display: flex;
+  justify-content: flex-end;
+  height: inherit;
+}
+
+.phone {
+  font-style: italic;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.small {
+  height: 2em;
+  width: 50px;
+  margin-right: 20px;
+}
+
+footer {
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  background-color: black;
+  filter: opacity(0.9);
+  margin-top: auto;
+}
+
+.footer {
+  width: 100%;
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+}
+
+.main {
+  margin-top: 115px;
+  text-align: center;
+}
+
+.main_block {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+  background-color: black;
+  filter: opacity(0.8);
+  width: 40em;
+  height: 500px;
+  display: inline-block;
+}
+
+.partn {
+  width: 150px;
+  height: 150px;
+  display: inline-block;
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+.partn_text {
+  text-align: center;
+  font-size: 2em;
+  height: 2em;
+  text-transform: uppercase;
+}
+
+.main_serv {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+
+.serv {
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+  filter: opacity(1);
+  border-radius: 30%;
+  background-color: rgba(245, 222, 179, 0.5);
+  box-shadow: 0px 0px 5px 5px rgba(245, 222, 179, 0.5);
+}
+
+.serv:hover {
+  box-shadow: 0px 0px 10px 10px rgba(245, 222, 179, 0.5);
+}
